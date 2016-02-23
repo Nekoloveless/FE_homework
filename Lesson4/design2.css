@@ -1,4 +1,7 @@
 body {padding: 10px;}
+nav {
+    background: mediumpurple;
+}
 div{
     background: mediumpurple;
     display: table;

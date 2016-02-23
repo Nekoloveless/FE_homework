@@ -1,22 +1,24 @@
 body {padding: 10px;}
-div{
+nav {
     background: mediumpurple;
+}
+div{
     display: table;
-    padding: 10px;
     margin: 30px auto;
     width: 900px;
 }
 span {
+    display: inline-block;
     font-family: Impact;
     font-weight: normal;
     color: white;
     margin: 0px 7px;
-    padding: 0px 7px;
+    padding: 11px 7px;
     font-size: 20px;
     cursor: pointer;
 }
 span:hover {
     color: darkgray;
     background: whitesmoke;
-    padding: 11px 7px;
+
 }
