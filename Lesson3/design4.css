@@ -4,9 +4,9 @@ a[href*="ya"] {
 a[href*="google"] {
     color: #666;
 }
-li:nth-of-type(5):after {
+a[target="_blank"]:after {
     content: " ⇱";
     color: #f70;
-    direction: rtl;
-
+    margin-left: 2px;
+    display: inline-block;
 }

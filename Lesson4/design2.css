@@ -1,0 +1,26 @@
+body {padding: 10px;}
+div{
+    background: mediumpurple;
+    display: table;
+    margin: 0 auto;
+    width: 900px;
+}
+span {
+    font-family: Impact;
+    font-weight: normal;
+    color: white;
+    margin: 0 7px;
+    padding: 10px 7px;
+    font-size: 20px;
+    float: left;
+    cursor: pointer;
+}
+.more {
+    float: right;
+}
+span:hover {
+    color: darkgray;
+    background: whitesmoke;
+}
+
+

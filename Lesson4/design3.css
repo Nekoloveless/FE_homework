@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.pager {
+    width: 100%;
+}
+.pager ul {
+    list-style: none;
+    display: table;
+    margin: 30px auto;
+}
+.pager ul li{
+    float: left;
+    margin: 0 5px;
+}
+.pager ul li a{
+    font-family: Arial, serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+    color: #d03cff;
+    background: white;
+    padding: 10px 13px;
+    border: 1px solid rgba(105, 105, 105, 0.26);
+    border-radius: 15%;
+}
+.pager ul li a:hover{
+    color: white;
+    background: #d03cff;
+}
+.pager .noborder {
+    border: none;
+}
+
+
+
+

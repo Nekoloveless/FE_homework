@@ -43,6 +43,7 @@ input#blue:checked ~.blue {
     border-radius: 10px;
     padding: 3px;
     background: red;
+    display: inline-block;
 }
 .green {
     color: white;
@@ -51,6 +52,7 @@ input#blue:checked ~.blue {
     border-radius: 10px;
     padding: 3px;
     background: green;
+    display: inline-block;
 }
 .blue {
     color: white;
@@ -59,4 +61,5 @@ input#blue:checked ~.blue {
     border-radius: 10px;
     padding: 3px;
     background: blue;
+    display: inline-block;
 }
