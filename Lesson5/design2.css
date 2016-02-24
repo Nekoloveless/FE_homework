@@ -1,0 +1,130 @@
+.orange {
+    position: relative;
+    z-index: 1;
+    width: 350px;
+    height: 600px;
+    background: #ff8c4e;
+    margin: auto;
+    border-radius: 1%;
+}
+.best_value {
+    position: absolute;
+    z-index: 2;
+    top: 25px;
+    left: 100px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.white{
+    position: absolute;
+    z-index: 3;
+    width: 340px;
+    height: 515px;
+    background: white;
+    margin: 80px 5px;
+}
+.iconic_graphics {
+    position: absolute;
+    z-index: 4;
+    top: 100px;
+    left: 60px;
+    color: #3a3a3a;
+    font-size: 26px;
+    font-family: Arial, Verdana, sans-serif;
+    margin: auto;
+}
+.dollars{
+    position: absolute;
+    z-index: 4;
+    top: 180px;
+    left: 100px;
+    color: #3a3a3a;
+    font-size: 26px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.price{
+    position: absolute;
+    z-index: 5;
+    top: 180px;
+    left: 115px;
+    color: #3a3a3a;
+    font-size: 26px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+b {
+    font-size: 90px;
+}
+.enroll_today{
+    position: absolute;
+    z-index: 5;
+    top: 520px;
+    left: 45px;
+    color: white;
+    background: #ff9553;
+    padding: 15px 70px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Verdana, sans-serif;
+    border-radius: 3%;
+    box-shadow: 0px 6px 1px -1px #884a15;
+    margin: auto;
+}
+.first_row {
+    width: 300px;
+    padding: 10px 0;
+    z-index: 6;
+    position: absolute;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #9b9b9b;
+    background: rgba(93, 185, 165, 0.38) url(Checker.png)no-repeat 30px center;
+    left: 25px;
+    top: 320px;
+}
+.second_row {
+    width: 300px;
+    padding: 10px 0;
+    z-index: 6;
+    position: absolute;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #9b9b9b;
+    background: rgba(146, 210, 175, 0.38) url(Checker.png)no-repeat 30px center ;
+    left: 25px;
+    top: 360px;
+}
+.third_row {
+    width: 300px;
+    padding: 10px 0;
+    z-index: 6;
+    position: absolute;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #9b9b9b;
+    background: rgba(93, 185, 165, 0.38) url(Checker.png)no-repeat 30px center;
+    left: 25px;
+    top: 400px;
+}
+.forth_row {
+    width: 300px;
+    padding: 10px 0;
+    z-index: 6;
+    position: absolute;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #9b9b9b;
+    background: rgba(146, 210, 175, 0.38) url(Checker.png)no-repeat 30px center ;
+    left: 25px;
+    top: 440px;
+}
+span {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+
