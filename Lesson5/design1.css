@@ -1,12 +1,16 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 nav {
     background: #2ac4db;
+    position: relative;
 }
 .main_menu {
     display: block;
     width: 900px;
     margin: 0 auto;
     text-align: center;
-    position: relative;
     background: #2ac4db;
 }
 
@@ -29,12 +33,10 @@ nav {
     color: white;
 }
 .sub_menu {
-    display: block;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-
     display: none;
 }
 .sub_menu li a {
@@ -42,6 +44,6 @@ nav {
 }
 .main_menu li:hover > .sub_menu {
     display: block;
-    color: darkgray;
-    background: #F5F5F5;
+    color: #5e5e5e;
+    background: #a8a8a8;
 }
