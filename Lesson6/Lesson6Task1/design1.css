@@ -1,45 +1,65 @@
-.orange {
-    position: relative;
-    z-index: 1;
-    width: 294px;
-    height: 465px;
-    background: #ee8129;
-    margin: auto;
-    border-radius: 1%;
+body {
+    padding: 0;
+    margin: 0;
 }
-.best_value {
-    position: absolute;
-    z-index: 2;
-    top: 20px;
+.offers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.second_offer, .first_offer, .third_offer {
+    display: inline-block;
+    width: 294px;
+    height: 433px;
+    border: 1px solid inherit;
+    border-radius: 1%;
+    margin: 0 -2px;
+}
+.first_offer:hover, .second_offer:hover, .third_offer:hover {
+    height: 434px;
+    transition: 0.8s;
+    transform: scale(1.1);
+    z-index: 10;
+    position: relative;
+}
+.first_offer {
+    background: #37c2d3;
+}
+.second_offer{
+    background: #ee8129;
+}
+.third_offer{
+    background: #1cb79a;
+}
+.headline {
+    position: relative;
+    top: 15px;
     left: 85px;
     color: white;
     font-size: 24px;
     font-weight: bold;
     font-family: "Trebuchet MS";
-    margin: auto;
+    margin: 0 auto;
+    text-transform: capitalize;
 }
 .white{
-    position: absolute;
-    z-index: 3;
-    width: 288px;
-    height: 387px;
+    width: 292px;
+    height: 379px;
     background: white;
-    margin: 75px 3px;
+    margin: 25px auto;
 }
 .iconic_graphics {
-    position: absolute;
-    z-index: 4;
-    top: 90px;
+    position: relative;
+    top: -390px;
     left: 60px;
     color: #3f4042;
     font-size: 24px;
     font-family: "Trebuchet MS";
-    margin: auto;
 }
 .dollars{
-    position: absolute;
-    z-index: 4;
-    top: 140px;
+    position: relative;
+    top: -380px;
     left: 80px;
     color: #3a3a3a;
     font-size: 18px;
@@ -47,9 +67,8 @@
     margin: auto;
 }
 .price{
-    position: absolute;
-    z-index: 5;
-    top: 135px;
+    position: relative;
+    top: -400px;
     left: 90px;
     color: #3a3a3a;
     font-size: 18px;
@@ -59,11 +78,10 @@
 b {
     font-size: 72px;
 }
-.enroll_today{
+.button{
     text-decoration: none;
-    position: absolute;
-    z-index: 5;
-    top: 400px;
+    position: relative;
+    top: -215px;
     left: 25px;
     color: white;
     background: #ee8129;
@@ -72,14 +90,17 @@ b {
     font-weight: bold;
     font-family: "Trebuchet MS";
     border-radius: 3%;
-    box-shadow: 0px 6px 1px -1px #b3560b;
+    box-shadow: 0px 5px 1px -1px #b3560b;
     margin: auto;
 }
+.button.blue {
+    background: #3371a6;
+    box-shadow: 0px 5px 1px -1px #16436a;
+}
 .group_list {
-    z-index: 6;
-    position: absolute;
+    position: relative;
     left: 20px;
-    top: 230px;
+    top: -410px;
 }
 .group_list div {
     font-family: "Trebuchet MS";
@@ -97,6 +118,10 @@ span {
     display: inline-block;
     margin-left: 60px;
 }
-.enroll_today:hover {
+.button:hover {
     background: rgba(255, 149, 83, 0.63)
 }
+.button.blue:hover {
+    background: #77addb;
+}
+

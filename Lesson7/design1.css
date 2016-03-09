@@ -1,0 +1,35 @@
+.table {
+    margin: 0 auto;
+    font-family: sans-serif;
+    width: 200px;
+    text-transform: capitalize;
+    text-align: justify;
+    color:rgba(0, 0, 0, 0);
+    text-shadow: 0 0 3px black;
+}
+.underline{
+    border-bottom:1px solid red;
+    opacity: 0.4;
+    box-shadow: 0 0 1px red, 0 0 3px red;
+}
+p{
+    text-align:justify;
+    line-height:10px;
+}
+.table p:after{
+    content:"";
+    display:inline-block;
+    width:100%;
+}
+.raw1{font-size:4.5em;}
+.raw2{font-size:3em;}
+.raw3{font-size:2em;}
+.raw4{font-size:1.5em;}
+.raw5{font-size:1.3em;}
+.raw6{font-size:1.2em;}
+.raw7{font-size:1.1em;}
+.raw8{font-size:1.0em;}
+.raw9{font-size:0.9em;}
+.raw10{font-size:0.8em;}
+.raw11{font-size:0.7em;}
+.raw12{font-size:0.6em;}
