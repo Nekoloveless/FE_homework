@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    font-family: "Myriad Pro";
+    text-align: center;
+    margin: 60px auto;
+}
+
+h2 {
+  font-size: 41px;
+    color: #2d3950;
+}
+h6 {
+  font-size: 15pt;
+    color: #909090;
+}
+h2, h6 {
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery {
+    margin: 10px 6%;
+    margin-bottom: 138px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-link {
+    display: inline-block;
+    position: relative;
+    width: 360px;
+    height: 260px;
+    margin: 10px;
+}
+
+.image {
+    margin: 10px;
+}
+.cover-bg{
+    display: none;
+    position: absolute;
+    top: 10px;
+    bottom: -10px;
+    left: 10px;
+    right: -10px;
+}
+.zoom{
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+.link{
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+
+}
+.img-link:hover .cover-bg,
+.img-link:hover .zoom,
+.img-link:hover .link{
+    display: block;
+}
+.cover-bg {
+    background: #39aef7;
+    -khtml-opacity: .8;
+    -moz-opacity: .8;
+    opacity: .8;
+}
+.zoom, .link {
+    width: 42px;
+    height: 42px;
+    border: 1px solid white;
+    z-index: 10;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.zoom {
+    background: url("../images/zoom.gif") no-repeat;
+    background-position: 50% 50%;
+}
+.link {
+    background: url("../images/link.gif") no-repeat;
+    background-position: 50% 50%;
+}
+.zoom:hover, .link:hover {
+    box-shadow: inset 0 0 3px black;
+}
