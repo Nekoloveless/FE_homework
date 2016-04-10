@@ -1,0 +1,153 @@
+@media (max-width: 1000px)and (min-width: 800px) {
+    header {
+        justify-content: space-between;
+        flex-flow: wrap;
+        padding: 0 20px;
+        height: 80px;
+    }
+
+    .logo {
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo_name {
+        border-bottom: none;
+        padding: 0 10px;
+        font-size: 26px;
+    }
+
+    .social_networks t {
+        font-size: 13px;
+        text-transform: capitalize;
+        padding: 0 10px;
+    }
+
+    .greating, .introduction {
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+
+    .greating h1 {
+        padding-top: 30px;
+    }
+
+    .greating p {
+        width: 50%;
+        text-align: left;
+        font-size: 25px;
+        line-height: 1.4;
+    }
+
+    .aplication {
+        width: 46%;
+        left: 51%;
+        top: 113px;
+    }
+
+    .introduction p {
+        width: 44%;
+        text-align: left;
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .presentation {
+        padding: 0 20px;
+    }
+
+    .presentation h2 {
+        text-align: left;
+        margin: 40px 0;
+    }
+
+    .presentation_part {
+        display: inline-flex;
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    .feedback h2 {
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    .presentation_part h3, .presentation_part p, .presentation_part input {
+        text-align: left;
+        margin: 0 20px 10px;
+    }
+    .feedback {
+        margin: 20px 20px 60px;
+    }
+    .feedback_head {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .feedback_navigation_arrows {
+        margin: 20px;
+    }
+
+    .feedback_text {
+        text-align: left;
+        margin: 40px -20px;
+        width: 70%;
+    }
+
+    .feedback_author {
+        width: 70%;
+    }
+    .subscribe{
+        height: 190px;
+    }
+    .subscribe_img{
+        left: 85%;
+        top: -174px;
+    }
+    .subscribe_button{
+        margin-left: 20px;
+        display: block;
+        float: left;
+        top: auto;
+        padding: 20px 60px 16px 0;
+        background: #e74c3c url(../images/get-started-arrow.gif) no-repeat 95% center;
+    }
+    footer{
+        flex-direction: row;
+        text-align: left;
+        }
+
+    footer .footer_top {
+        display: inline-flex;
+        align-items: center;
+        margin: 50px 20px 50px;
+    }
+    footer .footer_top .logo_name{
+        flex-direction: column;
+    }
+    footer .footer_logo {
+        height: 60px;
+    }
+    footer .footer_bottom{
+        margin:  auto;
+        line-height: 0.1;
+        font-size: 13px;
+        border-left: 2px solid #2980b9;
+        padding-left: 20px;
+    }
+    footer .footer_top .social_networks{
+        display: none;
+    }
+    footer .footer_bottom .social_networks{
+        display: inline-flex;
+        align-items: center;
+    }
+    footer .footer_bottom .footer_bottom_text{
+        display: flex;
+    }
+    footer .footer_bottom .footer_bottom_text p{
+        word-wrap: break-word;
+    }
+}

@@ -52,13 +52,13 @@ h2, h6 {
     display: none;
     position: absolute;
     top: 45%;
-    left: 40%;
+    left: 37%;
 }
 .link{
     display: none;
     position: absolute;
     top: 45%;
-    left: 55%;
+    left: 52%;
 
 }
 .img-link:hover .cover-bg,
@@ -67,10 +67,7 @@ h2, h6 {
     display: block;
 }
 .cover-bg {
-    background: #39aef7;
-    -khtml-opacity: .8;
-    -moz-opacity: .8;
-    opacity: .8;
+    background: rgba(57, 174, 247, 0.8);
 }
 .zoom, .link {
     width: 42px;
